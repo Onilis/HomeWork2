@@ -45,24 +45,25 @@ public class Main {
 
         var boxer1 = 78.2;
         var boxer2 = 82.7;
-        var totalWeight = boxer1 + boxer2;;
+        var totalWeight = boxer1 + boxer2;
+
         var massDifference = boxer2 - boxer1;
-        System.out.println("Общая масса боксеров: "+ totalWeight);
-        System.out.println("Разница между массами бойцов: "+ massDifference);
+        System.out.println("Общая масса боксеров: " + totalWeight);
+        System.out.println("Разница между массами бойцов: " + massDifference);
         System.out.println();
 
         var remainder = boxer2 % boxer1;
-        System.out.println("Остаток от деления: "+ remainder);
+        System.out.println("Остаток от деления: " + remainder);
 
         var totalHours = 640;
         var oneEmployee = 8;
-        var totalEmployees = totalHours/oneEmployee;
-        System.out.println("Всего работников в компании: "+totalEmployees);
+        var totalEmployees = totalHours / oneEmployee;
+        System.out.println("Всего работников в компании: " + totalEmployees);
         System.out.println();
 
         var allEmployee = totalEmployees + 94;
         var allHours = allEmployee * oneEmployee;
-        System.out.println("Если в компании работает: "+ allEmployee + "человек, то всего: "+ allHours + "часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает: " + allEmployee + "человек, то всего: " + allHours + "часов работы может быть поделено между сотрудниками");
 
     }
 }
